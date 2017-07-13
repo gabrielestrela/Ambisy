@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#aboutUs {
+    background: white;
+}
+
+#aboutUs img {
+/*
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 500px;
+     Need a specific value to work 
+*/
+}
+
+#aboutUs h1 {
+    font-weight: 200;
+}

@@ -1,0 +1,101 @@
+nav {
+    height: 128px;
+    line-height: 128px;
+    z-index: 100;
+    top: 25px;
+}
+
+.FLOAT {
+    position: absolute!important;
+}
+
+nav ul li a {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.FLOAT {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.brand-logo img {
+    margin-top: 20px;
+}
+
+.button-collapse i {
+/*
+    height: 128px!important;
+    line-height: 128px!important;
+*/
+}
+
+.transparentWhite {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.fa-facebook,
+.fa-twitter {
+    line-height: inherit!important;
+}
+
+.blueGrey {
+    color: #5e7279!important;
+    font-weight: 500;
+}
+
+.side-nav {
+    z-index: 9999;
+}
+
+.side-nav li a {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.side-nav li a:hover{
+    color: #2196F3!important;
+    margin-left: 5px;
+}
+
+.side-nav li a:active{
+    color: #2196F3!important;
+    margin-left: 5px;
+}
+
+.side-nav li a i{
+    margin: 0!important;
+}
+
+.btn.social i {
+    padding: 0!important;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.side-nav li a:hover i{
+    color: #85c12e!important;
+}
+
+.side-nav li a:active i{
+    color: #85c12e!important;
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    nav li a {
+        font-size: .8rem;
+    }
+}

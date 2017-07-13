@@ -1,0 +1,56 @@
+.page-footer {
+    background: url("../IMAGES/footer/footer-construction.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.footer-copyright {
+    background-color: rgba(234, 239, 243, .3)!important;
+}
+
+.myGrey {
+    color: #ababab!important;
+}
+
+.v-h-Align {
+    display: inline-block;
+    padding: 50px;
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+.navigation a{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navigation a:hover{
+    color: rgba(76,118,230,1)!important;
+}
+
+.navigation a:active{
+    font-weight: 600;
+    color: rgba(76,118,230,1)!important;
+}
+
+.contactNav a{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.contactNav a:hover{
+    color: rgba(76,118,230,1)!important;
+}
+
+.contactNav a:hover i{
+    color: #85c12e!important;
+}
+
+

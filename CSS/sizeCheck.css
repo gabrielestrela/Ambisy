@@ -1,0 +1,29 @@
+#sizeCheck {
+    display: none;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    #sizeCheck {
+        padding: 4px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    #sizeCheck{
+        padding: 6px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #sizeCheck{
+        padding: 8px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    #sizeCheck{
+        padding: 10px;
+    }
+}
