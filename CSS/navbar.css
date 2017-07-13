@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 .navbar-fixed{
-    position: absolute!important;
+    position: fixed!important;
 }
 
 .fa-facebook,

@@ -101,6 +101,10 @@ $(document).ready(function () {
     }
 
     function sizeCheck() {
+//        var carWidth = $(".carousel-intro").width();
+//        $("nav").css({
+//            width: carWidth
+//        })
         if ($("#sizeCheck").css("padding") != "4px") {
 //            console.log("Tela Maior");
             $(window).scroll(function () {
