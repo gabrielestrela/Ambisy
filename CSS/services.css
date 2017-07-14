@@ -1,0 +1,53 @@
+#servicesTitle {
+    text-shadow: 2px 1px 2px rgba(50, 50, 50, 1)!important;
+}
+
+.lines {
+    line-height: 0;
+    text-align: center;
+}
+
+.lines span {
+    display: inline-block;
+    position: relative;
+}
+
+.lines span:before,
+.lines span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 300px;
+    text-shadow: 2px 1px 2px rgba(50, 50, 50, 1)!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.lines span:hover:before,
+.lines span:hover:after{
+    width: 600px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.lines span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.lines span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+    .lines {
+        line-height: 1;
+    }
+}

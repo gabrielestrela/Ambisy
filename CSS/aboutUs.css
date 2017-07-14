@@ -4,7 +4,11 @@
 }
 
 #aboutUs {
-    background: white;
+    background: #f6f6f7;
+}
+
+#aboutUs .row{
+    margin-bottom: 0;
 }
 
 #aboutUs img {
