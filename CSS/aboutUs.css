@@ -8,7 +8,7 @@
 }
 
 #aboutUs img {
-/*
+    /*
     position: absolute;
     left: 0;
     right: 0;
@@ -23,3 +23,39 @@
 #aboutUs h1 {
     font-weight: 200;
 }
+
+.h1EqualHigh {
+    margin: 2.8rem 0 1.68rem 0!important;
+}
+
+.team{
+    width: 100%;
+}
+
+.team-inner{
+    overflow: hidden;
+}
+
+.team-caption{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px){
+    .h1Equalhigh{
+        text-align: center!important;
+    }    
+}
+
+/*
+#aboutHeader{
+     margin-top: 2.4rem!important;
+}*/

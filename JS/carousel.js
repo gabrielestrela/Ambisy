@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     var windowHeight = $(window).height();
     var liHeight = $(".carousel-inner li").height();
-    console.log('Window Height: ' + windowHeight);
+//    console.log('Window Height: ' + windowHeight);
     if (windowHeight > liHeight) {
             $('.carousel-inner').css({
                 height: liHeight
@@ -27,7 +27,7 @@ $(document).ready(function () {
     $(window).resize(function () {
         var windowHeight = $(window).height();
         var liHeight = $(".carousel-inner li").height();
-        console.log("Resize: " + windowHeight);
+//        console.log("Resize: " + windowHeight);
         //        $('.carousel-intro').css({
         //            height: windowHeight
         //        });
