@@ -62,6 +62,7 @@
     <link rel="stylesheet" href="CSS/services.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/clients.css">
+    <link rel="stylesheet" href="CSS/contactUs.css">
 
 </head>
 
@@ -139,7 +140,7 @@
             <div class="col l3 m6 s12">
                 <!-- Foto -->
                 <div class="center team team-inner">
-                    <img src="" alt="" class="responsive-img circle">
+                    <img src="IMAGES/pessoas/Savio128.jpg" alt="Savio" class="responsive-img circle">
                     <p class="team-caption">
                         José Luiz Sávio Costa Filho
                     </p>
@@ -151,7 +152,7 @@
             <div class="col l3 m6 s12">
                 <!-- Foto -->
                 <div class="center team team-inner">
-                    <img src="" alt="" class="responsive-img circle">
+                    <img src="IMAGES/pessoas/reginaldo128.jpg" alt="Reginaldo" class="responsive-img circle">
                     <p class="team-caption">
                         Reginaldo Estrela
                     </p>
@@ -162,7 +163,7 @@
             </div>
             <div class="col l3 m6 s12">
                 <div class="center team team-inner">
-                    <img src="" alt="" class="responsive-img circle">
+                    <img src="IMAGES/pessoas/Adanilton128.jpg" alt="Adanilton" class="responsive-img circle">
                     <p class="team-caption">
                         Adanilton Fonseca Santos
                     </p>
@@ -175,7 +176,7 @@
             <div class="col l3 m6 s12">
                 <div class="center team team-inner">
                     <!-- Foto -->
-                    <img src="" alt="" class="responsive-img circle">
+                    <img src="IMAGES/pessoas/Indiara128.jpg" alt="Indiara" class="responsive-img circle">
                     <p class="team-caption">
                         Indiara Oliveira Bezerra
                     </p>
@@ -212,17 +213,17 @@
                     </div>
                     <div class="col l2 m4 s6">
                         <div class="center partner partner-inner">
-                            <img src="IMAGES/parceiros/coopema128.png" alt="partner2" class="responsive-img">
+                            <img src="IMAGES/parceiros/coopema128Logo.png" alt="partner2" class="responsive-img">
                         </div>
                     </div>
                     <div class="col l2 m4 s6">
                         <div class="center partner partner-inner">
-                            <img src="IMAGES/parceiros/coopmmab128.png" alt="partner3" class="responsive-img">
+                            <img src="IMAGES/parceiros/coopmmab128Logo.png" alt="partner3" class="responsive-img">
                         </div>
                     </div>
                     <div class="col l2 m4 s6">
                         <div class="center partner partner-inner">
-                            <img src="IMAGES/parceiros/cootranje128.png" alt="partner4" class="responsive-img">
+                            <img src="IMAGES/parceiros/cootranje128Logo.png" alt="partner4" class="responsive-img">
                         </div>
                     </div>
                     <div class="col l2 m4 s6">
@@ -260,7 +261,42 @@
                 </div>
 -->
 
-                <div class="col s12 divider greenLogo hide-on-med-and-down"></div>
+                <div class="col s12 divider hide-on-med-and-down"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactUs">
+        <div class="container center">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="">Fale Conosco</h1>
+                </div>
+                <form action="PHP/mail.php">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input type="text" class="validate" id="nameInput">
+                        <label for="nameInput">Nome</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="emailInput" class="validate">
+                        <label for="emailInput" data-error="wrong" data-success="right">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input type="text" class="validate" id="subjectInput">
+                        <label for="sujectInput">Assunto</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">comment</i>
+                        <textarea id="textArea" cols="30" rows="10" class="materialize-textarea"></textarea>
+                        <label for="textArea">Mensagem</label>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn waves-effect waves-light" value="Enviar">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -358,6 +394,7 @@
     <script type="text/javascript" src="JS/aboutUs.js"></script>
     <script type="text/javascript" src="JS/services.js"></script>
     <script type="text/javascript" src="JS/clients.js"></script>
+    <script type="text/javascript" src="JS/contactUs.js"></script>
 
 </body>
 

@@ -1,0 +1,66 @@
+#contactUs {
+    background-color: #eaeff3;
+}
+
+#contactUs .row {
+    margin-bottom: 0!important;
+}
+
+#contactUs h1 {
+    font-weight: 200;
+    color: #333;
+}
+
+/* label color */
+
+.input-field label {
+    color: #000!important;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: #1340af!important;
+}
+
+.input-field input[type=email]:focus+label {
+    color: #1340af!important;
+}
+
+.input-field textarea:focus+label {
+    color: #1340af!important;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #1340af!important;
+    box-shadow: 0 1px 0 0 #1340af!important;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #1340af!important;
+    box-shadow: 0 1px 0 0 #1340af!important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #1340af!important;
+    box-shadow: 0 1px 0 0 #1340af!important;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #85c12e!important;
+}
+
+.rotate90{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
