@@ -1,0 +1,38 @@
+#location {
+    background-color: #eaeff3;
+}
+
+#location .row {
+    margin-bottom: 0;
+}
+
+#location h1 {
+    font-weight: 200;
+    color: #333;
+    font-size: 3rem;
+}
+
+#location h2 {
+    font-weight: 200;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+#location p,
+#location h4 {
+    text-align: left;
+}
+
+#locicon {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+@media (max-width: 1300px) {
+    #location p{
+        font-size: .8rem;
+    }
+    #location h4 {
+        font-size: 1.3rem;
+    }
+}
